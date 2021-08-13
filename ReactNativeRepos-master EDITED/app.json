@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "React Native Simple Login Template",
+    "slug": "react-native-simple-login-template",
+    "privacy": "public",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyCR5ey5OyUi0hbPipDg61ZoL9FtgQlF8LU"
+        }
+      }
+    },
+    "description": "Simple login template created with React Native.",
+    "githubUrl": "https://github.com/venits/react-native-login-template"
+  }
+}
